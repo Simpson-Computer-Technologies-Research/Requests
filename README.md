@@ -1,4 +1,4 @@
-# Requests
+# Requests ![Stars](https://img.shields.io/github/stars/Simpson-Computer-Technologies-Research/Requests?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/Simpson-Computer-Technologies-Research/Requests?label=Watchers)
 ![banner (1)](https://user-images.githubusercontent.com/75189508/194771973-dec86e5e-ac0c-4dea-a8cb-3f48514c2709.png)
 Which is faster? Sending http requests in Go, Python or Rust?
 
