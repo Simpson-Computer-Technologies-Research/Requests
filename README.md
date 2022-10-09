@@ -7,19 +7,20 @@ Which is faster? Sending http requests in Go, Python or Rust?
 ```rust
 
 // Python
-GET:  Average Result: 64.0871ms
-POST: Average Result: 64.0461ms
-PUT:  Average Result: 64.4185ms
-THREADED: Average Result: 6.28s
+GET:  		Average Result: 64.0871ms
+POST: 		Average Result: 64.0461ms
+PUT:  		Average Result: 64.4185ms
+THREADED: 	Average Result: 6.28s
 
 // Golang
-GET:  Average Result: 57.3495ms
-POST: Average Result: 59.2759ms
-PUT:  Average Result: 57.793ms
-GOROUTINES: Average Result: 289.2099ms
+GET:  		Average Result: 57.3495ms
+POST: 		Average Result: 59.2759ms
+PUT:  		Average Result: 57.793ms
+GOROUTINES: 	Average Result: 289.2099ms
 
 // Rust
-Average Result: 183ms
+GET/PUT/POST: 	Average Result: 183ms
+THREADED:	Undetermined
 
 ```
 
